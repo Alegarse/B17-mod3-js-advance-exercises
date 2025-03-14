@@ -41,6 +41,7 @@ button:focus-visible {
   outline: 0.25rem auto -webkit-focus-ring-color;
 }
 
+/* Exercise 1.3 */
 .ex13 {
   display: flex;
   gap: 10px;
@@ -63,4 +64,34 @@ button:focus-visible {
 
 .yellow {
   background-color: goldenrod;
+}
+
+/* Exercise 1.4 */
+
+.ex14 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 50px;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 5px;
+}
+
+.movie-img {
+  border-radius: 10px;
+}
+
+.movie-title {
+  text-align: center;
+  font-size: x-large;
+}
+
+.movie-description {
+  margin-top: 0;
+  padding: 2px
 }

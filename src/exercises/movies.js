@@ -1,5 +1,4 @@
-export const movies = [
-    {
+export const movie = {
     title: "The Dark Knight",
     director: "Christopher Nolan",
     actors: "Christian Bale, Heath Ledger, Aaron Eckhart",
@@ -9,5 +8,4 @@ export const movies = [
     rating: 9,
     description:
     "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
-    }
-]
+}
