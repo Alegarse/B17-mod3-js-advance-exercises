@@ -8,3 +8,38 @@
     Nota: para definir las clases CSS que va a tener un elemento en Javascript usa la propiedad “className”
     de dicho elemento asignándole una cadena de texto con el nombre de las clases.
  */
+
+const colors = {
+    blue: 'blue',
+    green: 'green',
+    yellow: 'yellow'
+}
+
+function createSquare(quantity, containerElement) {
+    let color = 0
+    for(let i = 1; i <= quantity; i++) {
+        let square = document.createElement('div')
+        square.setAttribute("class", "square")
+        if (color === 0) {
+            square.classList = `square ${colors.blue}`
+            color++
+        } else if (color === 1) {
+            square.classList = `square ${colors.green}`
+            color++
+        } else {
+            square.classList = `square ${colors.yellow}`
+            color = 0
+        }
+        containerElement.appendChild(square)
+    }
+    
+}
+
+export function main1_3() {
+    document.querySelector('.ex13').removeAttribute('hidden')
+
+    let containerElement = document.querySelector('.ex13')
+
+    createSquare(4, containerElement)
+
+}
