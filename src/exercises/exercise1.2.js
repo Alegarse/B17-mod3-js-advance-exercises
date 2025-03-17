@@ -24,10 +24,7 @@ function addButton(text) {
 }
 
 export function main1_2() {
-    document.querySelector('.ex12').removeAttribute('hidden')
-
     let containerElement = document.querySelector('.ex12')
-
     containerElement.appendChild(addParagraph(data.paragraph))
     containerElement.appendChild(addButton(data.button))
 }

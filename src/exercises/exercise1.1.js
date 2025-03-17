@@ -8,7 +8,6 @@
  */
 
 export function main1_1() {
-    document.querySelector('.ex11').removeAttribute('hidden')
     console.log(document.getElementById('unique-Id'))
     console.log(document.querySelectorAll('.exercise1-1'))
 }

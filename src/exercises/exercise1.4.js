@@ -60,10 +60,6 @@ function createMovieCard(movie) {
 }
 
 export function main1_4() {
-    document.querySelector('.ex14').removeAttribute('hidden')
-
     const movieContainerElement = document.querySelector('.ex14')
-
     for (let i = 1; i <= 8; i++) movieContainerElement.appendChild(createMovieCard(movie))
-
 }

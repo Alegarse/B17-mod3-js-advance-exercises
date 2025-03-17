@@ -36,10 +36,6 @@ function createSquare(quantity, containerElement) {
 }
 
 export function main1_3() {
-    document.querySelector('.ex13').removeAttribute('hidden')
-
     let containerElement = document.querySelector('.ex13')
-
     createSquare(4, containerElement)
-
 }
