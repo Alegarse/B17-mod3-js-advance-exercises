@@ -1,6 +1,7 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from './vite.svg'
+import {categories, movies} from './data'
 import * as exercises from "./exercises/exercises";
 
 
@@ -11,7 +12,7 @@ let indexBase = `
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
     </a>
     <a href="https://github.com/Alegarse" target="_blank">
-      <img src="https://raw.githubusercontent.com/Alegarse/Dev_Utils/9574e643ce173b9a5c06c714c4c5ef7e532bcf92/logo_ags.svg" class="logo" alt="AGS logo" />
+      <img src="https://www.arenalsoft.es/logo_ags.svg" class="logo" alt="AGS logo" />
     </a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
@@ -28,9 +29,14 @@ let indexBase = `
       </div>
       <div class="grid-tema">
         <h3>Tema 2</h3>
-        <button id="ex21">Ejercicio 1</button>
-        <button id="ex22">Ejercicio 2</button>
+        <button id="ex21-2">Ejercicio 1 y 2</button>
         <button id="ex23">Ejercicio 3</button>
+      </div>
+      <div class="grid-tema">
+        <h3>Tema 3</h3>
+        <button id="ex31">Ejercicio 1</button>
+        <button id="ex32">Ejercicio 2</button>
+        <button id="ex33">Ejercicio 3</button>
       </div>
     </div>
     <div class="card">
@@ -46,9 +52,11 @@ let indexBase = `
     <div class="ex12" hidden></div>
     <div class="ex13" hidden></div>
     <div class="ex14" hidden></div>
-    <div class="ex21" hidden></div>
-    <div class="ex22" hidden></div>
+    <div class="ex21-2" hidden></div>
     <div class="ex23" hidden></div>
+    <div class="ex31" hidden></div>
+    <div class="ex32" hidden></div>
+    <div class="ex33" hidden></div>
 `
 
 
@@ -78,9 +86,9 @@ function createEventListeners() {
   document.querySelector('#ex13').onclick = () => { showExercise('13'); exercises.main1_3()}
   document.querySelector('#ex14').onclick = () => { showExercise('14'); exercises.main1_4()}
   // Exercises Topic 2
-  document.querySelector('#ex21').onclick = () => { showExercise('21')}
-  document.querySelector('#ex22').onclick = () => { showExercise('22')}
+  document.querySelector('#ex21-2').onclick = () => { showExercise('21-2'); exercises.main2_12(movies,categories)}
   document.querySelector('#ex23').onclick = () => { showExercise('23')}
+  // Exercises Topic 3
 }
 
 showInMain(indexBase)
