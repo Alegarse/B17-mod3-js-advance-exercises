@@ -31,7 +31,7 @@ let indexBase = `
         <h3>Tema 2</h3>
         <button id="ex21-2">Ejercicio 1-2</button>
         <button id="ex23">Ejercicio 3</button>
-        <button id="ex2a">Ejercicio 2A</button>
+        <button id="ex2a">Ejercicio A</button>
       </div>
       <div class="grid-tema">
         <h3>Tema 3</h3>
