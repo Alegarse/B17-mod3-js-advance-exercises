@@ -259,3 +259,31 @@ button:focus-visible {
 .movie-desc {
   font-style: italic;
 }
+
+/* Exercise 2.3 */
+
+.ex23 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-text {
+  background-color: #e2e3ee;
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+  color: #1a1a1a;
+}
+
+.container-keydowns {
+  width: 250px;
+  height: 30px;
+  background-color: #3b78d7;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+}

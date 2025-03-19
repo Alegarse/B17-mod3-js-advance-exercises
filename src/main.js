@@ -29,7 +29,7 @@ let indexBase = `
       </div>
       <div class="grid-tema">
         <h3>Tema 2</h3>
-        <button id="ex21-2">Ejercicio 1 y 2</button>
+        <button id="ex21-2">Ejercicio 1-2</button>
         <button id="ex23">Ejercicio 3</button>
       </div>
       <div class="grid-tema">
@@ -87,7 +87,7 @@ function createEventListeners() {
   document.querySelector('#ex14').onclick = () => { showExercise('14'); exercises.main1_4()}
   // Exercises Topic 2
   document.querySelector('#ex21-2').onclick = () => { showExercise('21-2'); exercises.main2_12(movies,categories)}
-  document.querySelector('#ex23').onclick = () => { showExercise('23')}
+  document.querySelector('#ex23').onclick = () => { showExercise('23'); exercises.main2_3()}
   // Exercises Topic 3
 }
 
