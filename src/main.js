@@ -31,6 +31,7 @@ let indexBase = `
         <h3>Tema 2</h3>
         <button id="ex21-2">Ejercicio 1-2</button>
         <button id="ex23">Ejercicio 3</button>
+        <button id="ex2a">Ejercicio 2A</button>
       </div>
       <div class="grid-tema">
         <h3>Tema 3</h3>
@@ -54,6 +55,7 @@ let indexBase = `
     <div class="ex14" hidden></div>
     <div class="ex21-2" hidden></div>
     <div class="ex23" hidden></div>
+    <div class="ex2a" hidden></div>
     <div class="ex31" hidden></div>
     <div class="ex32" hidden></div>
     <div class="ex33" hidden></div>
@@ -88,6 +90,7 @@ function createEventListeners() {
   // Exercises Topic 2
   document.querySelector('#ex21-2').onclick = () => { showExercise('21-2'); exercises.main2_12(movies,categories)}
   document.querySelector('#ex23').onclick = () => { showExercise('23'); exercises.main2_3()}
+  document.querySelector('#ex2a').onclick = () => { showExercise('2a'); exercises.main2_a()}
   // Exercises Topic 3
 }
 

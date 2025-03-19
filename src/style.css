@@ -287,3 +287,27 @@ button:focus-visible {
   font-size: 20px;
   display: flex;
 }
+
+/* Exercise 2A*/
+.select-colors {
+  margin: 15px;
+  min-width: 100px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-green {
+  background-color: green;
+}
