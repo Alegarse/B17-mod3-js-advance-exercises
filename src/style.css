@@ -90,7 +90,7 @@ button:focus-visible {
 
 .exit-button {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
 }
 
 #exit {
@@ -106,7 +106,7 @@ button:focus-visible {
 
 .grid-tema {
   display: flex;
-  gap:5px;
+  gap: 5px;
   flex-direction: column;
 
   & h3 {
@@ -120,7 +120,7 @@ button:focus-visible {
   & button:hover {
     background-color: rgba(255, 255, 255, 0.87);
     color: #747bff;
-    border: 1px solid #747bff;;
+    border: 1px solid #747bff;
   }
 }
 
@@ -179,7 +179,7 @@ button:focus-visible {
 
 .movie-description {
   margin-top: 0;
-  padding: 2px
+  padding: 2px;
 }
 
 /* Exercise 2.1 */
@@ -199,10 +199,11 @@ button:focus-visible {
   gap: 20px;
 }
 
-.categories-select  {
+.categories-select {
   background-color: #3b78d7;
   width: auto;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: large;
   border-radius: 5px;
 }
@@ -244,7 +245,7 @@ button:focus-visible {
   display: flex;
   align-items: center;
   justify-content: center;
-  height:fit-content ;
+  height: fit-content;
   background-color: #3b78d7;
   border: 1px solid white;
   border-radius: 5px;
@@ -311,4 +312,43 @@ button:focus-visible {
 
 .bg-green {
   background-color: green;
+}
+
+/* Exercise 4.1 */
+.large-desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  background-color: #3b78d7;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 500px;
+}
+
+/* Exercise 4.2 */
+
+.ex42 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.validate {
+  background-color: #3b78d7;
+  color: #ffffff;
+  width: fit-content;
+  height: fit-content;
+  padding: 4px;
+}
+
+.error {
+  color: red;
+}
+
+.valid {
+  color: green;
 }

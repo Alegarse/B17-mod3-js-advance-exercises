@@ -39,13 +39,12 @@ let indexBase = `
         <button id="ex32">Ejercicio 2</button>
         <button id="ex33">Ejercicio 3</button>
       </div>
-      <!--<div class="grid-tema">
+      <div class="grid-tema">
         <h3>Tema 4</h3>
         <button id="ex41">Ejercicio 1</button>
         <button id="ex42">Ejercicio 2</button>
-        <button id="ex43">Ejercicio 3</button>
       </div>
-      <div class="grid-tema">
+      <!--<div class="grid-tema">
         <h3>Tema 5</h3>
         <button id="ex51">Ejercicio 1</button>
         <button id="ex52">Ejercicio 2</button>
@@ -73,7 +72,6 @@ let indexBase = `
     <div class="ex33" hidden></div>
     <div class="ex41" hidden></div>
     <div class="ex42" hidden></div>
-    <div class="ex43" hidden></div>
     <div class="ex51" hidden></div>
     <div class="ex52" hidden></div>
     <div class="ex53" hidden></div>
@@ -113,6 +111,9 @@ function createEventListeners() {
   document.querySelector('#ex31').onclick = () => { showExercise('31'); exercises.main3_1()}
   document.querySelector('#ex32').onclick = () => { showExercise('32'); exercises.main3_2()}
   document.querySelector('#ex33').onclick = () => { showExercise('33'); exercises.main3_3()}
+  // Exercises Topic 4
+  document.querySelector('#ex41').onclick = () => { showExercise('41'); exercises.main4_1()}
+  document.querySelector('#ex42').onclick = () => { showExercise('42'); exercises.main4_2()}
 }
 
 showInMain(indexBase)
