@@ -110,6 +110,8 @@ function createEventListeners() {
   document.querySelector('#ex23').onclick = () => { showExercise('23'); exercises.main2_3()}
   document.querySelector('#ex2a').onclick = () => { showExercise('2a'); exercises.main2_a()}
   // Exercises Topic 3
+  document.querySelector('#ex31').onclick = () => { showExercise('31'); exercises.main3_1()}
+  document.querySelector('#ex32').onclick = () => { showExercise('32'); exercises.main3_2()}
 }
 
 showInMain(indexBase)

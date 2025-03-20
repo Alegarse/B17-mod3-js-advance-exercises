@@ -288,7 +288,7 @@ button:focus-visible {
   display: flex;
 }
 
-/* Exercise 2A*/
+/* Exercise 2A & 3.2*/
 .select-colors {
   margin: 15px;
   min-width: 100px;
@@ -298,6 +298,7 @@ button:focus-visible {
   width: 100px;
   height: 100px;
   margin: 30px;
+  border-radius: 15px;
 }
 
 .bg-red {
