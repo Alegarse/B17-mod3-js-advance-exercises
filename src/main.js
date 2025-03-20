@@ -39,6 +39,18 @@ let indexBase = `
         <button id="ex32">Ejercicio 2</button>
         <button id="ex33">Ejercicio 3</button>
       </div>
+      <div class="grid-tema">
+        <h3>Tema 4</h3>
+        <button id="ex41">Ejercicio 1</button>
+        <button id="ex42">Ejercicio 2</button>
+        <button id="ex43">Ejercicio 3</button>
+      </div>
+      <div class="grid-tema">
+        <h3>Tema 5</h3>
+        <button id="ex51">Ejercicio 1</button>
+        <button id="ex52">Ejercicio 2</button>
+        <button id="ex53">Ejercicio 3</button>
+      </div>
     </div>
     <div class="card">
       <button id="repo-button" type="button"><a href="https://github.com/Alegarse/B17-mod3-js-advance-exercises" target="_blank" title="Open link to repository">Repositorio</a></button>
@@ -59,6 +71,12 @@ let indexBase = `
     <div class="ex31" hidden></div>
     <div class="ex32" hidden></div>
     <div class="ex33" hidden></div>
+    <div class="ex41" hidden></div>
+    <div class="ex42" hidden></div>
+    <div class="ex43" hidden></div>
+    <div class="ex51" hidden></div>
+    <div class="ex52" hidden></div>
+    <div class="ex53" hidden></div>
 `
 
 
