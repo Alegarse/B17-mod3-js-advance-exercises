@@ -18,7 +18,7 @@ let indexBase = `
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1>JavaScript Advanced Exercises</h1>
-    <p>Debes habilitar la consola de insepcción para visualizar los resultados de algunos ejercicios cuando hagas click en cada botón correspondiente</p>
+    <p>Debes habilitar la consola de inspección para visualizar los resultados de algunos ejercicios cuando hagas click en cada botón correspondiente</p>
     <div class="exercises-grid">
       <div class="grid-tema">
         <h3>Tema 1</h3>
