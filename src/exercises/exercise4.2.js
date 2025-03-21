@@ -65,7 +65,7 @@ function validateNumber(number) {
     console.log(number)
 
     number = number.replaceAll(' ', '').replaceAll('-','').replaceAll('+','')
-    if (number.length > 9) return false
+    if (number.length != 9) return false
 
     let arrayNumbers = number.split('')
     if (arrayNumbers[0] === '0') return false
