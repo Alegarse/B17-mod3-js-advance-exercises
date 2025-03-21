@@ -62,7 +62,6 @@ function createValidateButton() {
 function validateNumber(number) {
 
     const numbers = '0123456789'
-    console.log(number)
 
     number = number.replaceAll(' ', '').replaceAll('-','').replaceAll('+','')
     if (number.length != 9) return false
@@ -117,7 +116,7 @@ export function main4_2() {
         containerElement.removeAttribute('hidden')
         if (!validate) {
             containerElement.classList = 'cont-tel error'
-            containerElement.textContent = 'Is not a valid number'
+            containerElement.textContent = 'Is not a valid telephone number'
         } else {
             containerElement.classList = 'cont-tel valid'
             containerElement.textContent = validate
