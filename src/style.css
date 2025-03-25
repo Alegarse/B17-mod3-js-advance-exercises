@@ -163,7 +163,8 @@ button:focus-visible {
   background-color: #c7c9f710;
   padding: 5px;
   border-radius: 10px;
-  width: 250px;
+  max-width: 200px;
+  min-width: 150px;
   gap: 5px;
 }
 
@@ -173,10 +174,10 @@ button:focus-visible {
 
 .movie-title {
   text-align: center;
-  font-size: x-large;
+  font-size: 16px;
 }
 
-.movie-description {
+.movie-overview {
   margin-top: 0;
   padding: 2px;
 }
@@ -350,4 +351,56 @@ button:focus-visible {
 
 .valid {
   color: green;
+}
+
+/* Exercise 6.1 */
+.ex61 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+/* Exercise 6.2*/
+.ex62 {
+  display: flex;
+  gap: 50px;
+}
+
+.overview-credits-movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie-credit {
+  font-style: italic;
+}
+
+/* Exercise 6.3 */
+.ex63 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.actor-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #c7c9f710;
+  padding: 5px;
+  border-radius: 10px;
+  max-width: 150px;
+  min-width: 75px;
+  gap: 5px;
+}
+
+.actor-img {
+  border-radius: 10px;
+}
+
+.actor-name {
+  text-align: center;
+  font-size: 12px;
 }
