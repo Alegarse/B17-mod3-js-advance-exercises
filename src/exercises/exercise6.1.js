@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { createMovieCard } from '../components/movieCard';
-import { api_key } from '../utils/consts';
+import { api_key } from '../api-rest/apiConfig';
 
 export async function main6_1 () {
 

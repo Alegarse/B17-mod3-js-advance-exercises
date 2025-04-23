@@ -50,6 +50,11 @@ let indexBase = `
         <button id="ex62">Ejercicio 2</button>
         <button id="ex63">Ejercicio 3</button>
       </div>
+      <div class="grid-tema">
+        <h3>Tema 7</h3>
+        <button id="ex71">Ejercicio 1</button>
+        <button id="ex72">Ejercicio 2</button>
+      </div>
     </div>
     <div class="card">
       <button id="repo-button" type="button"><a href="https://github.com/Alegarse/B17-mod3-js-advance-exercises" target="_blank" title="Open link to repository">Repositorio</a></button>
@@ -75,6 +80,8 @@ let indexBase = `
     <div class="ex61" hidden></div>
     <div class="ex62" hidden></div>
     <div class="ex63" hidden></div>
+    <div class="ex71" hidden></div>
+    <div class="ex72" hidden></div>
 `
 
 
@@ -118,6 +125,10 @@ function createEventListeners() {
   document.querySelector('#ex61').onclick = () => { showExercise('61'); exercises.main6_1()}
   document.querySelector('#ex62').onclick = () => { showExercise('62'); exercises.main6_2()}
   document.querySelector('#ex63').onclick = () => { showExercise('63'); exercises.main6_3()}
+  // Exercises Topic 7
+  document.querySelector('#ex71').onclick = () => { showExercise('71'); exercises.main7_1()}
+  document.querySelector('#ex72').onclick = () => { showExercise('72'); exercises.main7_2()}
+
 }
 
 showInMain(indexBase)

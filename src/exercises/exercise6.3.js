@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { createActorCard } from '../components/actorCard';
-import { api_key } from '../utils/consts';
+import { api_key } from '../api-rest/apiConfig';
 
 export async function main6_3 () {
 

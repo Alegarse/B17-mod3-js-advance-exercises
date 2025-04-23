@@ -29,6 +29,7 @@ function createInput() {
 
     inputElement.setAttribute('type', 'text')
     inputElement.setAttribute('class', 'input-text')
+    inputElement.placeholder = 'Introduzca número de teléfono'
 
     return inputElement
 }
