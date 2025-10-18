@@ -1,11 +1,10 @@
-export const api_key = '2d5c6f63ff2eee3baf3a6c8e6464b8ba'
+export const api_key = '2344c21a12275d6508e53c3f4582ba36';
 
 export const apiConfig = {
-    apiKey: '2d5c6f63ff2eee3baf3a6c8e6464b8ba',
-    langISO: 'es-ES',
-    baseUrl:'',
-    posterBaseUrl:'',
-    backdropBaseUrl: '',
-    photoBaseUrl: ''
-
-}
+  apiKey: '2344c21a12275d6508e53c3f4582ba36',
+  langISO: 'es-ES',
+  baseUrl: '',
+  posterBaseUrl: '',
+  backdropBaseUrl: '',
+  photoBaseUrl: '',
+};
